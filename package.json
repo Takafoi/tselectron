@@ -1,0 +1,17 @@
+{
+  "name": "tselectron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "npm run build & electron ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^10.1.5",
+    "typescript": "^4.0.3"
+  }
+}
